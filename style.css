@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+body {
+    height:  100vh ;
+    background: #DDD;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.main-content {
+    width: 39rem ;
+    height: 33rem  ;
+    background: white ;
+    border-radius: 10px ;
+}
+
+.sign-up {
+    height: 100% ;
+    display: grid;
+    grid-template-columns: repeat(2,50%); ;
+    grid-template-rows: 100% ;
+
+}
+
+
+.pattren {
+    background: linear-gradient(to top , #17e2a0 , #0eace9);
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+
+}
+
+.content h1{
+    position: relative;
+}
+
+.content h1::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 60px  ;
+    height: 4px ;
+    background: #17e2a0;
+}
+
+.content , .pattren {
+    padding: 2rem 3.5rem 0 ;
+    width:100%;
+}
+.full {
+    width: 100% ;
+    height: 100% ;
+}
+
+span {
+/*display: block ;*/
+    font-size: 10px; 
+    padding-left:13px ;
+}
+
+
+.content .sign-google input {
+    margin: 1.5rem 0 ;
+    background: none ;
+    cursor: pointer;
+}
+
+.content img {
+    position: absolute ;
+    top:33px;
+    left:20px;
+    z-index: 5;
+    width: 13px ;
+    height: 13px ;
+}
+
+.content .sign-google {
+    border-bottom: 2px solid #DDD;
+    position: relative;
+    width: 100% ;
+    background: none ;
+}
+
+.sign-google span {
+    content: '';
+    position: absolute ;
+    bottom: -16px  ;
+    left: 73px  ;
+    background: white ;
+    font-size: .7rem ;
+    padding: 5px 18px ;
+    color: rgba(109, 109, 109, 0.541) ;
+}
+
+
+
+input {
+    width: 100% ;
+    border: none ;
+    outline: none ;
+    border-radius: 18px ;
+    box-shadow: 1px 2px 5px rgba(109, 109, 109, 0.541) ;
+    padding: 7px 10px ;
+    font-size: 11px ;
+    color: rgba(109, 109, 109, 0.699) ;
+}
+
+.input-sign {
+    margin: 1rem 0 0 ;
+}
+
+.inp h6 {
+    padding-left: 10px ;
+    margin: .3rem 0 ;
+}
+
+.inp h6 {
+    font-size: 10px ;
+}
+
+
+.inp input {
+    background: white;
+    color: #212121  ;
+    font-size: 12px ;
+} 
+.inp input:placeholder-shown {
+    background: #e9f1f5;
+    color: #17e2a0 ;
+    
+}
+
+.inp input::placeholder {
+    color: rgba(0, 0, 0, .3);
+    
+}
+
+
+
+#sign-up {
+    margin-bottom: 2% ;
+    background: linear-gradient(to left , #17e2a0 , #0eace9 );
+    color: white ;
+    cursor: pointer;
+}
+
+#sign-up:active {
+    transform: scale(.97);
+}
+
+
+
+
+.input-sign .failed input {
+    border: 1px solid #fa81b4 ;
+    box-shadow: none ; 
+}
+
+.input-sign .failed span , .input-sign .faild h6 {
+    color: #fa81b4 ;
+}
+
+.input-sign .success input {
+    border: 1px solid #72c8fa ;
+    box-shadow: none ; 
+}
+
+
+
+
+
+
