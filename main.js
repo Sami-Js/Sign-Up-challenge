@@ -39,7 +39,7 @@ function generateValue() {
     
     // مصفوفة من المدخلات لتسهيل الوصول للقيم
     const ArrayInputs = [name , email , password ];
-    // شرط اذا تم ادخال قيم في كل المدخلات يتم تعيين الكلاس الرئيسي لكي لا يتواجد اي من الكلاسات المضافه
+    // شرط اذا تم ادخال قيم في كل المدخلات يتم ارجاع الكلاس الافتراضي لكي لا يتواجد اي من الكلاسات المضافه
     if(name.id.value && email.id.value  && password.id.value ){
       Fun.removeValue(ArrayInputs);
       return ;
