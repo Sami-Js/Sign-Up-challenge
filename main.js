@@ -27,6 +27,7 @@ class Fun {
         let paranetInput = e.id.parentElement ;
         e.id.value = '';
         paranetInput.className = 'inp';
+        paranetInput.children[2].innerHTML = '' ;
         });
     }    
 }
@@ -58,5 +59,3 @@ function generateValue() {
 
 
 document.querySelector('#sign-up').addEventListener('click' , generateValue);
-
-
