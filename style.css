@@ -166,7 +166,7 @@ input {
     box-shadow: none ; 
 }
 
-.input-sign .failed span , .input-sign .faild h6 {
+.input-sign .failed span  , .input-sign .failed h6 {
     color: #fa81b4 ;
 }
 
@@ -174,9 +174,3 @@ input {
     border: 1px solid #72c8fa ;
     box-shadow: none ; 
 }
-
-
-
-
-
-
