@@ -148,7 +148,8 @@ input {
 
 
 #sign-up {
-    margin-bottom: 2% ;
+    margin-top: 3em ;
+    margin-bottom: 1em;
     background: linear-gradient(to left , #17e2a0 , #0eace9 );
     color: white ;
     cursor: pointer;
